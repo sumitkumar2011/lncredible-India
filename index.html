@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Font Awesome File -->
+  <link rel="stylesheet" href="./assets/css/fontawesome-free-5.7.0-web/css/all.min.css" />
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.5.0.2.min.css" />
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Incredible India</title>
+</head>
+
+<body>
+  <!-- Top Header -->
+  <div class="top-header" id="topHeader">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="personal-details">
+            <a href="#" class="personal-details-link"><i class="personal-icons fas fa-envelope"></i>info@holiday.com</a>
+            <a href="#" class="personal-details-link"><i class="personal-icons fas fa-phone"></i>(+91) 98 1066 4582</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="social-icons">
+            <i class="personal-icons-list fab fa-facebook"></i>
+            <i class="personal-icons-list fab fa-twitter"></i>
+            <i class="personal-icons-list fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header -->
+  <header id="header" class="navbar navbar-expand-lg navbar-light header py-2">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand" href="index.html"><i class="logo-icons fas fa-home"></i>Holiday</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="navigation-link" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              What We Do
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link" href="#">Our Tours</a>
+          </li>
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/banner-img/bg-1.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+         <h5 class="banner-heading">Incredible India</h5>
+          <p>tour and travels</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/banner-img/bg-2.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+          <h5 class="banner-heading">Find the best place</h5>
+          <p>For you hoidays</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/banner-img/bg-3.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+          <h5 class="banner-heading">World famouse india Tours</h5>
+          <p>Wonderfull Destination</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span aria-hidden="true"><i class="carousel-icons fas fa-arrow-left"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span aria-hidden="true"><i class="carousel-icons fas fa-arrow-right"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Registration Form -->
+  <section id="gallary" class="pt-5 pb-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+          <div class="inner-check-in-out-form">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link nav-link-button active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link nav-link-button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="register-check-out-form">
+                  <div class="form-group mb-3">
+                    <select class="form-select">
+                      <option selected> -- Select Hotel -- </option>
+                      <option value="shangrila">Shangri-La</option>
+                      <option value="chatrium">Chatrium</option>
+                      <option value="hilton">Hilton</option>
+                      <option value="fourseasons">Four Seasons</option>
+                    </select>
+                  </div>
+                  <form>
+                    <div class="form-group mb-3">
+                      <label class="dates">Check-in-Date :
+                        <input type="date" name="bday">
+                      </label>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="dates">Check-out-Date :
+                        <input type="date" name="bday">
+                      </label>
+                    </div>
+                    <div class="form-group mb-3">
+                      <select class="form-select">
+                        <option selected> -- Guests -- </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5+">5+</option>
+                      </select>
+                    </div>
+                    <p class="submit-btn">
+                      <button class="form-btn">Submit</button>
+                    </p>
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="register-check-out-form">
+                  <div class="form-group mb-3">
+                    <select class="form-select">
+                      <option selected> -- Select Modal -- </option>
+                      <option value="shangrila">BMW</option>
+                      <option value="chatrium">Mersediz</option>
+                      <option value="fourseasons">TOyota</option>
+                      <option value="hilton">Honda</option>
+                      <option value="inova">Inova</option>
+                    </select>
+                  </div>
+                  <form>
+                    <div class="form-group mb-3">
+                      <label class="dates">Check-in-Date :
+                        <input type="date" name="bday">
+                      </label>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="dates">Check-out-Date :
+                        <input type="date" name="bday">
+                      </label>
+                    </div>
+                    <div class="form-group mb-3">
+                      <select class="form-select">
+                        <option selected> -- Options -- </option>
+                        <option value="childsheet">Child Sheet</option>
+                        <option value="gpsnevigator">GPS Nevigator</option>
+                        <option value="insurence">Insurence</option>
+                      </select>
+                    </div>
+                    <p class="check-now">
+                      <button class="form-btn">Submit</button>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Uttrakhand -->
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="card place-img">
+            <div>
+              <img src="./assets/img/home-page/Untitled-14.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body place">
+              <a href="#" class="beauty-place-link ">
+                <h5 class="card-title">Uttarakhand</h5>
+                <p class="card-text">6,000</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Jammu and Kashmir -->
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="card place-img">
+            <div>
+              <img src="./assets/img/home-page/Untitled-12.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body place">
+              <a href="#" class="beauty-place-link">
+                <h5 class="card-title">jammu and</h5>
+                <p class="card-text">6,000</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAY TO HEAVEN IN INDIA -->
+  <section class="way-to-india pt-5">
+    <h2 class="sub-heading text-center mb-5">WAY TO HEAVEN IN INDIA</h2>
+    <div class="heading-border">
+      <img src="./assets/img/home-page/Untitled-7.png" class="border-img" alt="">
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="card place-img mb-5">
+            <div>
+              <img src="./assets/img/home-page/Untitled-10.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body package-place">
+              <p class="card-text explor-date">
+                <small class="explor-date-text">28 August 2022</small>
+              </p>
+              <a href="#" class="place-link">
+                <i class="likes-icons fas fa-heart"></i>
+                <h5 class="card-title">Uttarakhand</h5>
+                <i class="likes-icons fas fa-edit"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Jammu and Kashmir -->
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="card place-img mb-5">
+            <div>
+              <img src="./assets/img/home-page/Untitled-7.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body package-place">
+              <p class="card-text explor-date">
+                <small class="explor-date-text">28 August 2022</small>
+              </p>
+              <a href="#" class="place-link">
+                <i class="likes-icons fas fa-heart"></i>
+                <h5 class="card-title">Uttarakhand</h5>
+                <i class="likes-icons fas fa-edit"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="card place-img mb-5">
+            <div>
+              <img src="./assets/img/home-page/Untitled-11.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body package-place">
+              <p class="card-text explor-date">
+                <small class="explor-date-text">28 August 2022</small>
+              </p>
+              <a href="#" class="place-link">
+                <i class="likes-icons fas fa-heart"></i>
+                <h5 class="card-title">Uttarakhand</h5>
+                <i class="likes-icons fas fa-edit"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Jammu and Kashmir -->
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="card place-img mb-5">
+            <div>
+              <img src="./assets/img/home-page/Untitled-9.jpg" class="card-img-top place-image" alt="...">
+            </div>
+            <div class="card-body package-place">
+              <p class="card-text explor-date">
+                <small class="explor-date-text">28 August 2022</small>
+              </p>
+              <a href="#" class="place-link">
+                <i class="likes-icons fas fa-heart"></i>
+                <h5 class="card-title">Uttarakhand</h5>
+                <i class="likes-icons fas fa-edit"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Holiday Offer -->
+  <section class="hodiay-disc-offer pt-5 pb-5 mb-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="./assets/img/discount-2.png" alt="" class="img-fluid holiday-deals">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POPULAR PACKAGES -->
+  <section class="populer-packages mb-4">
+    <h2 class="sub-heading text-center mb-5">POPULAR PACKAGES</h2>
+    <div class="heading-border">
+      <img src="./assets/img/home-page/Untitled-7.png" class="border-img" alt="">
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="card mb-3 mt-3">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="inner-package">
+                  <img src="./assets/img/home-page/jammu-and-kashmir.jpg" class="package-img" alt="...">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-body package-place">
+                  <hr>
+                  <a href="#" class="place-link">
+                    <i class="likes-icons fas fa-heart"></i>
+                    <h5 class="card-title">Uttarakhand</h5>
+                    <i class="likes-icons fas fa-edit"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Jammu and Kashmir -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="card mb-3 mt-3">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="inner-package">
+                  <img src="./assets/img/home-page/jammu-and-kashmir.jpg" class="package-img" alt="...">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-body package-place">
+                  <hr>
+                  <a href="#" class="place-link">
+                    <i class="likes-icons fas fa-heart"></i>
+                    <h5 class="card-title">Uttarakhand</h5>
+                    <i class="likes-icons fas fa-edit"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="card mb-3 mt-3">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="inner-package">
+                  <img src="./assets/img/home-page/jammu-and-kashmir.jpg" class="package-img" alt="...">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-body package-place">
+                  <hr>
+                  <a href="#" class="place-link">
+                    <i class="likes-icons fas fa-heart"></i>
+                    <h5 class="card-title">Uttarakhand</h5>
+                    <i class="likes-icons fas fa-edit"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Jammu and Kashmir -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="card mb-3 mt-3">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="inner-package">
+                  <img src="./assets/img/home-page/jammu-and-kashmir.jpg" class="package-img" alt="...">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-body package-place">
+                  <hr>
+                  <a href="#" class="place-link">
+                    <i class="likes-icons fas fa-heart"></i>
+                    <h5 class="card-title">Uttarakhand</h5>
+                    <i class="likes-icons fas fa-edit"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="sub-footer pt-3 pb-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p class="sub-footer-line">Copyright © 2022 All right reserve <a href="" class="sub-footer-link">Holiday</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="./js/bootstrap.bundle.5.0.2.min.js"></script>
+</body>
+
+</html>
